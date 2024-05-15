@@ -1,0 +1,12 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore everything in the data directory
+src/data/*
+# Except the directory itself
+!src/data/.gitkeep
+
+# Ignore everything in the assets directory
+src/assets/*
+# Except the directory itself
+!src/assets/.gitkeep
